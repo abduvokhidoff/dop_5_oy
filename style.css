@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 110px;
+}
+header{
+    background-image: url(./assets/img/1.png);
+    height: 875px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 28px 320px 236px 320px;
+    margin: 0px 0px 110px 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_list{
+display: flex;
+align-items: center;
+gap: 32px;
+list-style-type: none;
+}
+.navbar_list>li{
+    color: white;
+font-family: Open Sans;
+font-size: 13px;
+font-weight: 600;
+line-height: 19.2px;
+text-align: left;
+transition: all 1s;
+}
+.navbar_list>li:hover{
+    color: orange;
+    transition: all 1s;
+}
+.navbar_icons_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 58px;
+}
+.navbar_icons_wrapper_1{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.heard{
+    position: relative;
+}
+.heard>div{
+ background: #F57520;
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}
+.magazine{
+    position: relative;
+}
+.magazine>div{
+    background: #F57520;
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}
+.navbar_2{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.navbar_2_title{
+color: white;
+font-family: Open Sans;
+font-size: 96px;
+font-weight: 700;
+line-height: 118.08px;
+letter-spacing: 0.02em;
+text-align: left;
+width: 679px;
+}
+.navbar_2_description{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 28.8px;
+letter-spacing: 0.01em;
+text-align: left;
+color: white;
+width: 645px;
+}
+.navbar_2_button{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.68px;
+text-align: right;
+color: orange;
+padding: 16px 45px;
+width: 180px;
+border: 1px solid orange;
+border-radius: 10px;
+transition: all 1s;
+}
+.navbar_2_button:hover{
+background-color: orange;
+border: none;
+color: white;
+transition: all 1s;
+transform: scale(1.2);
+}
+.first_section_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.first_section_container_box-каталог_description{
+    font-family: Open Sans;
+font-size: 64px;
+font-weight: 800;
+line-height: 78.72px;
+letter-spacing: 0.05em;
+text-align: center;
+color: black;
+}
+.first_section_container_cards-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.first_section_container_cards-wrapper_card-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.first_section_container_cards-wrapper_card-каталог_card-велосипед{
+    padding: 122px 80px;
+    background-color:  black;
+    width: 1280px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.first_section_container_cards-wrapper_card-каталог_card-велосипед>p{
+    color: white;
+    font-family: Open Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 49.2px;
+letter-spacing: 0.05em;
+text-align: left;
+transition: all 1s;
+
+}
+.first_section_container_cards-wrapper_card-каталог_card-велосипед>img{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.first_section_container_cards-wrapper_card-каталог_card-велосипед:hover{
+    background-color: #F57520;
+    transition: all 1s;
+}
+.first_section_container_cards-wrapper_card-wrapper_card-tradein{
+    padding: 80px 98px;
+    background-color: black;
+    width: 400px;
+    height: 458px;
+    position: relative;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.first_section_container_cards-wrapper_card-wrapper_card-tradein>img{
+position: absolute;
+bottom: 0;
+left: 0;
+}
+.first_section_container_cards-wrapper_card-wrapper_card-tradein>p{
+    font-family: Open Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 49.2px;
+letter-spacing: 0.05em;
+text-align: left;
+color: white;
+transition: all 1s;
+}
+.first_section_container_cards-wrapper_card-wrapper_card-tradein:hover{
+background-color: #F57520;
+transition: all 1s;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    width: 870px;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards>div{
+    background-color: black;
+    border-radius: 10px;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-запчасти{
+    width: 400px;
+    height: 216px;
+    position: relative;
+    padding: 29px 24px;
+    transition: all 1s;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-экипировка{
+    width: 448px;
+    height: 216px;
+    position: relative;
+    padding: 29px 24px;
+    transition: all 1s;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-велостанки{
+    width: 400px;
+    height: 216px;
+    position: relative;
+    padding: 29px 24px;
+    transition: all 1s;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-велостанки-1{
+    width: 448px;
+height: 216px;
+position: relative;
+padding: 29px 24px;
+transition: all 1s;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-запчасти>p{
+    font-family: Open Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 49.2px;
+letter-spacing: 0.05em;
+text-align: left;
+color: white;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-запчасти>img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-запчасти:hover{
+    transition: all 1s;
+    background-color: #F57520;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-экипировка>p{
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white; 
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-экипировка>img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-экипировка:hover{
+background-color: #F57520;
+transition: all 1s;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-велостанки>p{
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-велостанки>img{
+position: absolute;
+bottom: 0;
+right: 0;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-велостанки:hover{
+background-color: #F57520;
+transition: all 1s;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-велостанки-1>p{
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-велостанки-1>img{
+position: absolute;
+bottom: 0;
+right: 0;
+}
+.first_section_container_cards-wrapper_card-wrapper_last-cards_card-велостанки-1:hover{
+transition: all 1s;
+background-color: #F57520;
+}
+.second-section_container{
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+}
+.second-section_title{
+    font-family: Open Sans;
+font-size: 64px;
+font-weight: 800;
+line-height: 78.72px;
+letter-spacing: 0.05em;
+text-align: center;
+}
+.second-section_cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+}
+.second-section_cards-wrapper>div>img{
+    border-radius: 10px 10px 0 0;
+}
+.second-section_cards-wrapper>div{
+    width: 400px;
+    height: 462px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    transition: all 1s;
+    border-radius: 10px;
+
+}
+.second-section_cards-wrapper>div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 27px;
+}
+.second-section_cards-wrapper>div>div>h4{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 800;
+line-height: 25.6px;
+text-align: left;
+color: white;
+}
+.second-section_cards-wrapper>div>div>p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+color: white;    
+}
+.second-section_cards-wrapper>div:hover{
+    background-color: #F57520;
+    transition: all 1s;
+}
+.second-section_cards-wrapper>div:hover>div>h4{
+    color: black;
+}
+.second-section_cards-wrapper>div:hover>div>p{
+    color: black;
+}
+.third-section_container{
+    background-color: #F57520;
+    width: 208vh;
+    position: relative;
+    height: 636px;
+}
+.third-section_container_box{
+    padding: 52px 0px 40px 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 92px;
+    z-index: 2;
+    position: absolute;
+}
+.third-section_container_title>h3{
+    font-family: Open Sans;
+font-size: 40px;
+font-weight: 800;
+line-height: 49.2px;
+letter-spacing: 0.05em;
+text-align: left;
+color: white;
+width: 623px;
+}
+.third-section_container>div>img{
+position: absolute;
+bottom: 0;
+right: 0;
+z-index: 1;
+}
+.third-section_input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 620px;
+}
+.third-section_input-wrapper-1{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.third-section_input-wrapper-1>input{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+color: #B3B3B3;
+width: 302px;
+height: 46px;
+padding: 10px 16px;
+border: none;
+border-radius: 10px;
+outline: none;
+}
+.third-section_input-wrapper-2>input{
+width: 620px;
+height: 154px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+color: #B3B3B3;
+padding: 10px 512px 118px 16px;
+border: none;
+border-radius: 10px;
+outline: none;
+}
+.third-section_input-wrapper>button{
+    padding: 16px 245px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.68px;
+text-align: right;
+color: #F57520;
+border-radius: 10px;
+border: 1px solid #F57520;
+outline: none;
+background-color: white;
+transition: all 1s;
+}
+.third-section_input-wrapper>button:hover{
+    background-color: #F57520;
+    border: 2px solid white;
+    transition: all 1s;
+    color: white;
+    transform: scale(1.1);
+}
+footer>nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 91px 320px 166px 320px;
+    background-color: black;
+}
+footer>nav>.div_1{
+    display: flex;
+    gap: 208px;
+}
+footer>nav>div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+footer>nav>.div_1>div>h4{
+font-family: Open Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 38.4px;
+letter-spacing: 0.01em;
+text-align: left;
+color: white;
+}
+footer>nav>.div_1>div>p{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+color: white;
+}
