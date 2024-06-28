@@ -22,7 +22,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 80px;
-    padding: 28px 320px 236px 320px;
+    padding: 28px 320px 236px 120px;
     margin: 0px 0px 110px 0;
 }
 .navbar{
@@ -484,7 +484,7 @@ transition: all 1s;
 footer>nav{
     display: flex;
     justify-content: space-between;
-    padding: 91px 320px 166px 320px;
+    padding: 91px 320px 166px 120px;
     background-color: black;
 }
 footer>nav>.div_1{
