@@ -398,7 +398,7 @@ color: white;
     height: 636px;
 }
 .third-section_container_box{
-    padding: 52px 0px 40px 320px;
+    padding: 52px 0px 40px 120px;
     display: flex;
     flex-direction: column;
     gap: 92px;
